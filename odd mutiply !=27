@@ -1,0 +1,15 @@
+for (i in 1:300) {
+  if (i %% 2 == 0) {
+    next 
+  }
+  
+  if (i %% 27 == 0) {
+    next  
+  }
+  
+  print(i)
+  
+  if (i >= 299) {
+    break 
+  }
+}
